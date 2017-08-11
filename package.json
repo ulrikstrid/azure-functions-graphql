@@ -17,7 +17,10 @@
     "url": "https://github.com/ulrikstrid/azure-functions-webpack/issues"
   },
   "homepage": "https://github.com/ulrikstrid/azure-functions-webpack#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@ulrikstrid/apollo-server-azure-functions": "^1.0.0",
+    "graphql": "^0.10.5"
+  },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",

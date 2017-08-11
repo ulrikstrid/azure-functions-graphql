@@ -1,5 +1,8 @@
 import graphQLServer from "@ulrikstrid/apollo-server-azure-functions";
 import graphqlTools from "graphql-tools";
+import { makeExecutableSchema } from "graphql-tools";
+
+console.log(graphqlTools);
 
 const typeDefs = `
   type Random {

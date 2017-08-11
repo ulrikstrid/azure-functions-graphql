@@ -1,0 +1,42 @@
+{
+  "ignore": [],
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        {
+          "targets": {
+            "node": "6.10"
+          }
+        }
+      ],
+      "plugins": ["transform-es2015-modules-commonjs", "dynamic-import-node"]
+    },
+    "production": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "targets": {
+              "node": "6.10"
+            }
+          }
+        ]
+      ]
+    },
+    "development": {
+      "presets": [
+        [
+          "env",
+          {
+            "modules": false,
+            "targets": {
+              "node": "6.10"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

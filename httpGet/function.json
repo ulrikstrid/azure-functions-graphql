@@ -1,0 +1,20 @@
+{
+  "scriptFile": "../build/index.js",
+  "entryPoint": "httpGet",
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get"],
+      "authLevel": "anonymous",
+      "route": "get"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "disabled": false
+}

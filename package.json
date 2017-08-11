@@ -1,0 +1,27 @@
+{
+  "name": "azure-functions-webpack",
+  "version": "1.0.0",
+  "description": "Azure functions with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Add a test command\"",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulrikstrid/azure-functions-webpack.git"
+  },
+  "author": "Ulrik Strid (ulrik.strid@outlook.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulrikstrid/azure-functions-webpack/issues"
+  },
+  "homepage": "https://github.com/ulrikstrid/azure-functions-webpack#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.4.1"
+  }
+}

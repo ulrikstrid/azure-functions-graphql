@@ -3,7 +3,7 @@ import graphqlTools from "graphql-tools";
 import { makeExecutableSchema } from "graphql-tools";
 
 export default function run(context, request) {
-  console.log(graphqlTools);
+  context.log(graphqlTools);
 
   const typeDefs = `
     type Random {
@@ -32,8 +32,8 @@ export default function run(context, request) {
   });
 
   if (request.method === "POST") {
-    server.graphqlAzureFunctions(context, request);
+    graphQLServer.graphqlAzureFunctions(context, request);
   } else if (request.method === "GET") {
-    return server.graphiqlAzureFunctions(context, request);
+    graphQLServer.graphiqlAzureFunctions(context, request);
   }
 }

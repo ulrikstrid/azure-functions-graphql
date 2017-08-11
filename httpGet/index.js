@@ -1,5 +1,7 @@
-import graphQLServer from "@ulrikstrid/apollo-server-azure-functions";
-import graphqlTools from "graphql-tools";
+import {
+  graphqlAzureFunctions,
+  graphiqlAzureFunctions
+} from "@ulrikstrid/apollo-server-azure-functions";
 import { makeExecutableSchema } from "graphql-tools";
 
 export default function run(context, request) {
@@ -32,8 +34,8 @@ export default function run(context, request) {
   });
 
   if (request.method === "POST") {
-    graphQLServer.graphqlAzureFunctions(context, request);
+    graphqlAzureFunctions(context, request);
   } else if (request.method === "GET") {
-    graphQLServer.graphiqlAzureFunctions(context, request);
+    graphiqlAzureFunctions(context, request);
   }
 }

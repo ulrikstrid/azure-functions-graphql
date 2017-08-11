@@ -1,7 +1,7 @@
 {
-  "name": "azure-functions-webpack",
-  "version": "1.0.0",
-  "description": "Azure functions with webpack",
+  "name": "azure-functions-graphql",
+  "version": "0.1.0",
+  "description": "GraphQL on Azure functions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Add a test command\"",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ulrikstrid/azure-functions-webpack.git"
+    "url": "git+https://github.com/ulrikstrid/azure-functions-graphql.git"
   },
   "author": "Ulrik Strid (ulrik.strid@outlook.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ulrikstrid/azure-functions-webpack/issues"
+    "url": "https://github.com/ulrikstrid/azure-functions-graphql/issues"
   },
-  "homepage": "https://github.com/ulrikstrid/azure-functions-webpack#readme",
+  "homepage": "https://github.com/ulrikstrid/azure-functions-graphql#readme",
   "dependencies": {
     "@ulrikstrid/apollo-server-azure-functions": "^1.0.0",
     "graphql": "^0.10.5",

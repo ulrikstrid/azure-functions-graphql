@@ -5,8 +5,6 @@ import {
 import { makeExecutableSchema } from "graphql-tools";
 
 export default function run(context, request) {
-  context.log(graphqlTools);
-
   const typeDefs = `
     type Random {
       id: Int!

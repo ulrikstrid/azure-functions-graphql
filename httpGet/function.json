@@ -8,7 +8,7 @@
       "name": "req",
       "methods": ["get", "post"],
       "authLevel": "anonymous",
-      "route": "get"
+      "route": "graphql"
     },
     {
       "type": "http",

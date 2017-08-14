@@ -33,7 +33,8 @@ export default function run(context, request) {
 
   if (request.method === "POST") {
     graphqlAzureFunctions({
-      endpointURL: '/api/graphql'
+      endpointURL: '/api/graphql',
+      schema
     })(context, request);
   } else if (request.method === "GET") {
     graphiqlAzureFunctions({

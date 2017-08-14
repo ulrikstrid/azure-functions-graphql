@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ulrikstrid/azure-functions-graphql#readme",
   "dependencies": {
-    "@ulrikstrid/apollo-server-azure-functions": "^1.1.1",
+    "@ulrikstrid/apollo-server-azure-functions": "^1.1.2",
     "graphql": "^0.10.5",
     "graphql-tools": "^1.1.0"
   },
